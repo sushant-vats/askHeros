@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>askHeros - App</title>
+    <meta name="description" content="Choose a superhero mentor and get any question explained in thier unique teaching style, powered by AI.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="app-header">
+        <h1>askHeros</h1>
+    </header>
+
+    <section class="hero-select">
+        <h2>Choose your hero</h2>
+        <div class="hero-cards" id="heroCards">
+            <div class="hero-card" data-persona="spark">Spider-Man</div>
+            <div class="hero-card" data-persona="vantage">Captain America</div>
+            <div class="hero-card" data-persona="ironclad">Iron Man</div>
+            <div class="hero-card" data-persona="aurora">Superman</div>
+        </div>
+    </section>
+
+    <section class="question-section">
+        <h2>Ask your question</h2>
+        <textarea id="questionInput" placeholder="What is an atom?"></textarea>
+        <button id="askBtn">Ask</button>
+    </section>
+
+    <section class="answer-section" id="answerSection">
+        <p id="answerText">Your hero's answer will appear here.</p>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
