@@ -3,7 +3,7 @@ const express = require('express');
 const { personas, buildPrompt } = require('./personas');
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3001;
 
 app.use(express.json());
 app.use(express.static(__dirname));
@@ -38,7 +38,6 @@ app.post('/ask', async (req, res) => {
     });
 
     const data = await response.json();
-    console.log(data);
     const answer = data.choices[0].message.content;
 
     res.json({ answer });
