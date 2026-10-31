@@ -86,4 +86,4 @@ node server.js
 - Add a way to share answers
 
 ## License:
-Made for Hack Club's Snowglobe Program.
+Made for Hack Club's Pixl Program.
