@@ -2,6 +2,11 @@ askHeros:
 
 You can Choose a hero and Ask any question and Learn in a differnt way thats in their style. It is a website where any one can choose a superhero and ask them a question. The AI then answers the question in the style of the selected supeHERO.
 
+**How it Looks:**
+<img width="832" height="579" alt="Screenshot 2026-11-01 001325" src="https://github.com/user-attachments/assets/726723f7-b0a7-4b27-89ef-51ecef318cff" />
+<img width="813" height="585" alt="Screenshot 2026-11-01 001314" src="https://github.com/user-attachments/assets/b3842d51-2b41-4bce-8a17-01d691d9c7fa" />
+
+
 **Live demo:** https://askheros.sushant-vats.hackclub.app
 
 ## Why I built this
