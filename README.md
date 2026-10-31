@@ -86,4 +86,4 @@ node server.js
 - Add a way to share answers
 
 ## License:
-Made for Hack Club's Stardance Program.
+Made for Hack Club's Snowglobe Program.
